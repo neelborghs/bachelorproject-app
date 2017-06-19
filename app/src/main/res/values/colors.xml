@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    <color first_name="colorPrimary">#3F51B5</color>
+    <color first_name="colorPrimaryDark">#303F9F</color>
+    <color first_name="colorAccent">#FF4081</color>
+    -->
+
+    <color name="colorPrimary">#64ba69</color>
+    <color name="colorPrimaryDark">#31893d</color>
+    <color name="colorAccent">#96ed98</color>
+
+    <color name="colorDarkGrey">#455A64</color>
+
+    <!-- https://material.io/color tool -->
+    <color name="greenPrimary">#64ba69</color>
+    <color name="greenPrimaryLight">#96ed98</color>
+    <color name="greenPrimaryDark">#31893d</color>
+
+    <color name="greenSecondary">#1b5e20</color>
+    <color name="greenSecondaryLight">#4c8c4a</color>
+    <color name="greenSecondaryDark">#003300</color>
+
+</resources>

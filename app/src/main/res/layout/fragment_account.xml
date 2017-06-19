@@ -1,0 +1,92 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thomasmore.ezgreen.fragments.AccountFragment">
+
+    <TableLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_height="150dp"
+                android:layout_width="match_parent"
+                android:id="@+id/profile_picture"
+                android:src="@drawable/user"/>
+
+            <!--<ProgressBar
+                android:layout_height="50dp"
+                android:layout_width="50dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/profile_picture_progress"/>-->
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/account_personal_info"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:textColor="@color/colorDarkGrey"/>
+
+        <TableRow
+            android:paddingTop="5dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingRight="30dp"
+                android:text="@string/account_fname"/>
+            <EditText
+                android:id="@+id/et_first_name"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false" />
+        </TableRow>
+        <TableRow
+            android:paddingTop="5dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingRight="30dp"
+                android:text="@string/account_lname"/>
+            <EditText
+                android:id="@+id/et_last_name"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false" />
+        </TableRow>
+        <TableRow
+            android:paddingTop="5dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingRight="30dp"
+                android:text="@string/account_email"/>
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false" />
+        </TableRow>
+
+        <Button
+            android:id="@+id/btn_change_password"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/account_change_password"
+            android:layout_gravity="center|center_horizontal"/>
+    </TableLayout>
+
+</ScrollView>

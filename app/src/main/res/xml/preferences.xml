@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Personal Informations"
+        android:key="personal_category">
+
+        <EditTextPreference
+            android:key="first_name"
+            android:title="First Name"
+            android:summary="Enter Your First Name"
+            android:dialogTitle="Your First Name"
+            android:dialogMessage="Enter Your First Name"
+            android:defaultValue=" "
+            android:inputType="textCapWords"/>
+
+        <EditTextPreference
+            android:key="last_name"
+            android:title="Last Name"
+            android:summary="Enter Your Last Name"
+            android:dialogTitle="Your Last Name"
+            android:dialogMessage="Enter Your Last Name"
+            android:defaultValue=" "
+            android:inputType="textCapWords"/>
+
+        <EditTextPreference
+            android:key="email_address"
+            android:title="Email Address"
+            android:summary="Enter Your Email Address"
+            android:dialogTitle="Enter Your Email Address"
+            android:dialogMessage="Enter Your Email Address"
+            android:defaultValue=" "
+            android:inputType="textEmailAddress"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Extra"
+        android:key="custom_category">
+
+        <RingtonePreference
+            android:key="Dummy"
+            android:title="Dummy field"
+            android:summary="Customise dummy field"
+            android:dialogTitle="Dummy title"
+            android:dialogMessage="Customise dummy"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

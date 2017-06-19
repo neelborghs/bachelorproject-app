@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">EZgreen</string>
+
+    <!-- Snackbar messages -->
+    <string name="snack_network_error">Network error</string>
+    <string name="snack_login_details_unvalid">Please enter valid login details!</string>
+    <string name="snack_user_details_unvalid">Please enter valid user details!</string>
+    <string name="snack_photo_create_error">Something went wrong creating camera image!</string>
+    <string name="snack_link_modules">Please link your modules at the app dashboard!</string>
+
+    <!-- Progress dialogs -->
+    <string name="progress_wait">Please wait...</string>
+    <string name="progress_retrieve_data">Retrieving data from your modules...</string>
+    <string name="progress_upload">Uploading...</string>
+    <string name="progress_setup_image">Getting your profile picture ready...</string>
+    <string name="progress_setup_complete">All done!</string>
+    <string name="progress_search_module">Searching your modules...</string>
+
+
+    <!-- Toast messages -->
+    <string name="toast_perm_denied">Please allow all permissions!</string>
+
+
+    <!-- Actionbar en Menu names-->
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_account">Account</string>
+    <string name="menu_about">About</string>
+
+    <string name="actionbar_logout">Logout</string>
+    <string name="actionbar_refresh">Refresh</string>
+
+    <!-- MainActivity -->
+
+    <!-- UserAuthActivity -->
+
+    <!-- Accountfragment -->
+    <string name="account_permission_grant">In order to change the profile picture, the app needs access to: </string>
+
+    <string name="account_options_camera">Take Photo</string>
+    <string name="account_options_gallery">Choose from Gallery</string>
+    <string name="account_options_cancel">Cancel</string>
+
+    <string name="account_personal_info">Personal information</string>
+
+    <string name="account_fname">First Name</string>
+    <string name="account_lname">Last Name</string>
+    <string name="account_email">Email</string>
+    <string name="account_change_password">Change Password</string>
+
+    <!-- DashboardFragment -->
+    <string name="dashboard_welcome">Welcome,</string>
+    <string name="dashboard_no_module">You don\'t have any plant modules added yet!</string>
+
+    <!-- AboutFragment -->
+    <string name="about_intro">EZgreen is a bachelorproject made by two students from Thomas More University in Belgium.</string>
+
+    <!-- LoginFragment -->
+    <string name="login_error_email">Please enter a valid email address!</string>
+    <string name="login_error_password">Please enter your password!</string>
+    <string name="login_error_input">Please enter valid login details!</string>
+
+    <string name="login_hint_email">Email</string>
+    <string name="login_hint_password">Password</string>
+    <string name="login_btn_login">Login</string>
+    <string name="login_register">Don\'t have an account yet? Register now!</string>
+    <string name="login_forgot_password">Forgot Password?</string>
+
+    <!-- RegisterFragment -->
+    <string name="register_error_first_name">Please enter your first name!</string>
+    <string name="register_error_last_name">Please enter your last name!</string>
+    <string name="register_error_email">Please enter a valid email address!</string>
+    <string name="register_error_password">Please enter a password!</string>
+
+    <string name="register_hint_first_name">First Name</string>
+    <string name="register_hint_last_name">Last Name</string>
+    <string name="register_hint_email">Email</string>
+    <string name="register_hint_password">Password</string>
+    <string name="register_btn_register">Register</string>
+
+    <!-- ResetPasswordDialog -->
+    <string name="reset_pw_error_email">Please enter a valid email address!</string>
+    <string name="reset_pw_error_token">Please enter the token we sent you!</string>
+    <string name="reset_pw_error_password">Please enter your new password</string>
+
+    <string name="reset_pw_hint_email">Email</string>
+    <string name="reset_pw_hint_token">Token</string>
+    <string name="reset_pw_hint_new_pw">New password</string>
+    <string name="reset_pw_hint_reset_pw">Reset password</string>
+
+</resources>
